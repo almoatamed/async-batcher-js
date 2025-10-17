@@ -1,0 +1,43 @@
+{
+  "name": "async-batcher-js",
+  "version": "1.0.0",
+  "description": "A tiny TypeScript utility to coalesce many async requests into periodic batches (useful for batching DB or API calls).",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "module": "index.ts",
+  "files": [
+    "dist",
+    "index.ts"
+  ],
+  "type": "module",
+  "keywords": [
+    "batch",
+    "batching",
+    "async",
+    "typescript",
+    "debounce",
+    "coalesce",
+    "batcher",
+    "rate-limit"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/almoatamed/async-batcher"
+  },
+  "homepage": "https://github.com/almoatamed/async-batcher#readme",
+  "bugs": {
+    "url": "https://github.com/almoatamed/async-batcher/issues"
+  },
+  "author": "Salem Elmotamed s.elmotamed96@gmail.com",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
