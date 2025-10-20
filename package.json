@@ -1,6 +1,6 @@
 {
   "name": "async-batcher-js",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A tiny TypeScript utility to coalesce many async requests into periodic batches (useful for batching DB or API calls).",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
